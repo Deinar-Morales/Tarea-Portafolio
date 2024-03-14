@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="less/style.less">
+    <script src="java.js"></script>
+    <title>Sobre mi</title>
+</head>
+<body>
+
+  <section class="titulo">
+    <h1>Biografia - Deinar Jared Mejia Morales</h1>
+  </section>
+
+  <section class="portafolio">
+    <table border="3">
+      <th>
+          <img class src="Imagenes/foto_perfil.JPEG" alt="foto de perfil"  width="450px" height="500px">
+      </th>
+      <td class="texto">
+          <p>Naci en Mayo 26, tengo 22 Años y tengo residencia en Siguatepeque, Comayagua,
+              hice mi primaria y secundaria en el instituto American Continental School,
+              en donde aprendi ingles desde pequeño, luego para poder hacer mi 
+              bachillerato me traslade al Instituto de Ciencia y Tecnologia Omega en donde
+              estudie mi bachillerato en Computacion, Hoy en dia estoy sacando mi carrera
+              Ingenieria en Ciencias de la Computacion en la Universidad Catolica de Honduras</p>
+      </td>
+    </table>
+  </section>
+    
+<section class="contactos">
+    <article>
+            <h2>Contactos</h2>
+    <ul>
+        {{>contactos}}
+        <li><a>Facebook: </a><a href="https://www.facebook.com/deinarjared.mejiamorales/">Deinar Jared Mejia</a></li>
+        <br>
+        <button id="linkdis" onclick="darnombre()">Discord: Deinar Jared Mejia</button></li>
+    </ul>
+    </article>
+</section>
+
+</body>
+</html>

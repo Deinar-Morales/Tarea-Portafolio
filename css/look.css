@@ -1,0 +1,23 @@
+table{
+    margin-left: 17%;
+}
+.texto{
+    vertical-align: top;
+    width: 280px;
+    background-color: antiquewhite;
+    font-size: large;
+}
+
+body{
+    background-image:url("Imagenes/backgrnd.jpg");
+    background-size: 100%;
+}
+
+h1{
+    font-style: oblique;
+    color: #cecece;
+}
+.contactos{
+    font-weight: bold;
+
+}
